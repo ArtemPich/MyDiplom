@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ac934f-3e5c-45fc-b6a9-839442c499d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyDiplom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/posts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/social/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/social/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/social/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/social/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/social/wsgi.py" afterDir="false" />
+    <list default="true" id="38ac934f-3e5c-45fc-b6a9-839442c499d6" name="Changes" comment="Innitial commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/posts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/posts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/social/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/social/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/social/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/social/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +30,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.models.executor": "Run",
-    "Python.serializers.executor": "Run",
-    "Python.urls.executor": "Run",
-    "Python.views.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
+    &quot;Python.serializers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1732978670444</updated>
     </task>
+    <task id="LOCAL-00001" summary="Innitial commit">
+      <option name="closed" value="true" />
+      <created>1733074822006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733074822006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Innitial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Innitial commit" />
   </component>
 </project>

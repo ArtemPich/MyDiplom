@@ -27,6 +27,7 @@ urlpatterns = [
     path("", home_view, name="home"),
     path("post/", Post, name="posts"),
     path("posts/<int:post_id>/likes/", LikeView.as_view()),
+    path("posts/<int:post_id>/comment/", CommentViewSet.as_view())
 ]
 
 if settings.DEBUG:

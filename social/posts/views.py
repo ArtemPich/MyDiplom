@@ -17,7 +17,7 @@ User = get_user_model()
 def home_view(request):
     return HttpResponse("Здесь будет сайт!")
 
-
+"""Работа с постами"""
 class PostViewSet(ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
@@ -26,6 +26,7 @@ class PostViewSet(ModelViewSet):
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
 
+""" Работа с комментариями"""
 class CommentViewSet(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
@@ -34,7 +35,7 @@ class CommentViewSet(ModelViewSet):
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
 
-
+"""Проставление лайков"""
 class LikeView(APIView):
     permission_classes = [IsAuthenticated]
 
